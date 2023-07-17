@@ -1,0 +1,147 @@
+/* EMPEZAMOS SIEMPRE PONIENDO TODO EN CERO ,PARA TRABABAR SIN BASURA*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*si tenem,os cajas nos permite poner luego el tamaño*/
+}
+
+/* AHORA LE VAMOS A A DAR COLOR AL FONSO Y LA FUENTE*/
+body {
+    background-color: silver font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+header {
+    /*ESTA SERIA PARA PONER ESE BANNER NEGRO QEU ACOMPAÑA LA IMAGEN*/
+    width: 100%;
+    height: 6%;
+    background-color: rgb(6, 5, 5);
+}
+
+header img {
+    /*EL TAMAÑO DE MI IMAGEN, QUIERO QUE DE TODA LA PANTALLA SOLO SEA UN 15%*/
+    width: 10%;
+    padding: 30px;
+}
+
+header nav ol li {
+    list-style-type: none;
+    /*ESTO ES UN APROPIEDAD LISTA DE ESYILO , ES YIPO QUE ESTILO QUE TRAE PREDETERMINADA LA LISTA ENTONCES ASI POIENDO NONE LA SACO */
+
+    float: left;
+    /*  hacia la derecha puse.nos permite colocar los elemetos en forma de lista ,pero uno arlado del otro o lo que sea , se le pone arlado*/
+
+}
+
+header nav ol li a {
+    text-decoration: none;
+    /*pone  o quita decoracion  al tecto que tengamps , lo queremos sacar es esubrayado ponemos none y ademas le vamos a poner negro*/
+    padding: 15px;
+    /*vamos viendo como va quedanso las separaciones entre entre ellos y vamos eligiendo*/
+    color: azure;
+    background-color: black;
+    display: inline-block;
+    /* me lo acomoda para que quede arriba de lo que es el dibujo que to tengo, sino me tapaba un pedaso el dibijo del menu*/
+
+}
+
+header nav ol li a:hover {
+    /*pseudo elemento que hace que parpade cuando apollamos arriva el cursor ene sos 2 colores*/
+    background-color: gainsboro;
+    color: black;
+}
+
+nav {
+    padding-left: 60%;
+    position: relative;
+    /*aca lo cago porque quiero mover el menu y no me deja, pero ahora con esto lo muevo hacia dnde quiero segun mi snecesidadeds*/
+    top: -60px;
+}
+
+main {
+    width: 70%;
+    background-color: whitesmoke;
+    float: left;
+    /*lo que sea que tengaamos en la line siguinto l ova a poner en la derecha, es como ordenarlo, que esto que yo pongo se va aa quedar a la aizquierda*/
+}
+
+main section {
+    padding: 50px;
+
+}
+
+main section h3 {
+
+    color: black;
+    font-size: 1.9em;
+    /* tamaño de la fuente*/
+}
+
+main section p {
+    margin-top: 40px;
+    color: darkslategray;
+    font-size: 1.4em;
+    text-align: justify;
+    /*nos permite ordenar el texto como , a la aizquier, derecha, centrada , justificado*/
+}
+
+aside {
+  
+    width: 30%;
+    background-color: whitesmoke;
+    padding: 40px;
+float: left;
+}
+
+aside h3{
+   
+    color: black;
+    font-size: 1.8em;
+}
+aside ul li{   margin-top: 40px;
+     list-style-type: none;/*este lo que hace es la lista le quita las vinetas resondas que venian por defectp en el ul*/
+}
+
+aside ul li a {
+   
+    text-decoration: none;
+    color: black;
+    font-size: 1.6em;
+
+}
+aside ul li :hover {
+    border: 2px solid rgb(105, 104, 104);
+   border-radius: 6px;
+background-color: rgb(86, 79, 79);
+color:
+}
+
+footer{
+    background-color: brown;
+    float: left;
+padding:10px;
+
+}
+footer section h4{
+    text-align:center;
+    font-size: 1.8em;
+    color:whitesmoke;
+
+}
+footer section{
+    margin-top: 20px;
+    text-align: justify;
+    padding: 30px;
+    width: 33.3%;/* PARA ACA ES QUE YO HICE EL CONTENEDOR Y LE PUSE 100%, PARA ASI CASA SECCION ME QUEDA BIEN CENTRADA*/
+    float: left;
+}
+footer section p{
+    margin-top: 30px;
+    font-size: 1.3em;
+    color: whitesmoke;
+}
+
+.cotenedor{
+      max-width: 1000px;/* esto es para qeu emi display no se desforme . cuando lo agrando no se valla esparciendo hacia los costados yo axa ya marxco que le 100 de mi ancho es de 100 % para poder posicionar bien mis elem,entos, sino me quedan como que no se cuanto mide la superficie*/
+  margin: 0 auto; /*aca es todo el conunto para que no se me desforma el displayss*/
+}
