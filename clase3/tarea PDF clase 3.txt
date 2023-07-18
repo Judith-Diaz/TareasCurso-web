@@ -1,0 +1,11 @@
+1-Crear una maqueta para nuestro
+Curriculum Vitae web
+● ¿Qué Debería tener CV?
+● Armar la maqueta en html
+● Agregar colores a cada sección.
+
+2_Crea la página principal de nuestra tienda online
+¿Debería tener Menú?
+● ¿Va a tener una imagen principal o
+un slider?
+● ¿Vamos a agregar un footer?
