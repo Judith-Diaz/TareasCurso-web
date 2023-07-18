@@ -1,0 +1,71 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;/*si tenem,os cajas nos permite poner luego el tamaño*/
+}
+
+.contenedor{
+   max-width: 1000px;
+   margin: 0 auto;
+}
+body{
+    background-image: url(https://img.fotocommunity.com/pizza-big-pizza-2dba659f-5360-4b72-9e04-3bf015833c00.jpg?width=1000);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ 
+nav ol li{
+    
+  float: left;
+   background-color: black;
+  list-style-type: none; 
+}
+
+nav ol li a{
+       text-decoration: none;  
+    padding: 30px;
+    float: left;
+    color: beige;
+    
+
+}
+nav ol li a:hover{
+    background-color: brown;
+    color: antiquewhite;
+}
+
+main{
+ 
+padding: 30%;
+}
+main h3{
+    padding: 20px;
+float: left;
+color: beige;
+   font-size: 4em;
+}
+main input{
+
+    text-decoration: none; 
+    padding: 20px;
+   background-color: black;
+    color: rgb(240, 240, 224);
+    
+}
+main input:hover{
+    background-color: brown;
+    color: antiquewhite;
+}
+footer{
+    width: 15%;
+  padding: 5px;
+
+}
+footer p{ 
+
+ background-color: black;
+color: beige;
+height: 60px;
+ 
+}
