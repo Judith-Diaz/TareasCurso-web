@@ -1,0 +1,9 @@
+CV 2.0
+del trabajo de la clase anterior hace:
+En esta etapa la idea es darle estilos personalizados a nuestro
+CV. Para esto vamos a agregarle algunas funciones que vimos
+hoy:
+● Cambiar algunas tipografías.
+● Centrar algunos elementos.
+● Agregar contenido en forma de listas
+● Cambiar de color letras y fondos
