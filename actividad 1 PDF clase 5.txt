@@ -1,0 +1,14 @@
+ACTIVIDAD 1
+
+Realizar dos cuados de color celeste de 400px
+por 400px que estén alineados en el medio de
+la pagina web.
+
+
+actividad 2
+Mi primer formulario con diseño
+La etiqueta <label> sirve para asignar un valor de
+texto a otra etiqueta.
+Probablemente sea un input.
+Esto en un formulario se va a ver como el nombre a
+completar del mismo
